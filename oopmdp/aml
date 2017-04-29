@@ -1,0 +1,132 @@
+agent
+ public double p0;
+    public double p1;
+    public double p2;
+    public double p3;
+    public double p4;
+    public double p5;
+    public double p6;
+    public double p7;
+    public double p8;
+    public double p9;
+    public double p10;
+    public double p11;
+    public double p12;
+    public double p13;
+    public double p14;
+    public double p15;
+
+domain
+//Variables
+
+public static String VAR_P0 = "p0";
+public static String VAR_P1 = "p1";
+public static String VAR_P2 = "p2";
+public static String VAR_P3 = "p3";
+public static String VAR_P4 = "p4";
+public static String VAR_P5 = "p5";
+public static String VAR_P6 = "p6";
+public static String VAR_P7 = "p7";
+public static String VAR_P8 = "p8";
+public static String VAR_P9 = "p9";
+public static String VAR_P10 = "p10";
+public static String VAR_P11 = "p11";
+public static String VAR_P12 = "p12";
+public static String VAR_P13 = "p13";
+public static String VAR_P14 = "p14";
+public static String VAR_P15 = "p15";
+
+actions
+     domain.addActionType(new UniversalActionType(ACTION_P0_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P1_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P2_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P3_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P4_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P5_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P6_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P7_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P8_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P9_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P10_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P11_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P12_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P13_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P14_PLUS))
+//                .addActionTypes(new UniversalActionType(ACTION_P15_PLUS))
+//                .addActionType(new UniversalActionType(ACTION_P0_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P1_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P2_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P3_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P4_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P5_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P6_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P7_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P8_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P9_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P10_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P11_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P12_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P13_MIN))
+//                .addActionTypes(new UniversalActionType(ACTION_P14_MIN))
+                .addActionTypes(new UniversalActionType(ACTION_P15_MIN));
+
+
+
+
+//Actions Plus
+    public static String ACTION_P0_PLUS = "p0_plus";
+    public static String ACTION_P1_PLUS = "p1_plus";
+    public static String ACTION_P2_PLUS = "p2_plus";
+    public static String ACTION_P3_PLUS = "p3_plus";
+    public static String ACTION_P4_PLUS = "p4_plus";
+    public static String ACTION_P5_PLUS = "p5_plus";
+    public static String ACTION_P6_PLUS = "p6_plus";
+    public static String ACTION_P7_PLUS = "p7_plus";
+    public static String ACTION_P8_PLUS = "p8_plus";
+    public static String ACTION_P9_PLUS = "p9_plus";
+    public static String ACTION_P10_PLUS = "p10_plus";
+    public static String ACTION_P11_PLUS = "p11_plus";
+    public static String ACTION_P12_PLUS = "p12_plus";
+    public static String ACTION_P13_PLUS = "p13_plus";
+    public static String ACTION_P14_PLUS = "p14_plus";
+    public static String ACTION_P15_PLUS = "p15_plus";
+    //Actions Minus
+    public static String ACTION_P0_MIN = "p0_min";
+    public static String ACTION_P1_MIN = "p1_min";
+    public static String ACTION_P2_MIN = "p2_min";
+    public static String ACTION_P3_MIN = "p3_min";
+    public static String ACTION_P4_MIN = "p4_min";
+    public static String ACTION_P5_MIN = "p5_min";
+    public static String ACTION_P6_MIN = "p6_min";
+    public static String ACTION_P7_MIN = "p7_min";
+    public static String ACTION_P8_MIN = "p8_min";
+    public static String ACTION_P9_MIN = "p9_min";
+    public static String ACTION_P10_MIN = "p10_min";
+    public static String ACTION_P11_MIN = "p11_min";
+    public static String ACTION_P12_MIN = "p12_min";
+    public static String ACTION_P13_MIN = "p13_min";
+    public static String ACTION_P14_MIN = "p14_min";
+    public static String ACTION_P15_MIN = "p15_min";
+
+
+    //Variables
+
+    public static String VAR_P0 = "p0";
+    public static String VAR_P1 = "p1";
+    public static String VAR_P2 = "p2";
+    public static String VAR_P3 = "p3";
+    public static String VAR_P4 = "p4";
+    public static String VAR_P5 = "p5";
+    public static String VAR_P6 = "p6";
+    public static String VAR_P7 = "p7";
+    public static String VAR_P8 = "p8";
+    public static String VAR_P9 = "p9";
+    public static String VAR_P10 = "p10";
+    public static String VAR_P11 = "p11";
+    public static String VAR_P12 = "p12";
+    public static String VAR_P13 = "p13";
+    public static String VAR_P14 = "p14";
+    public static String VAR_P15 = "p15";
+
+
+
